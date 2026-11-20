@@ -1,0 +1,16 @@
+{
+  "name": "C_effnetv2s_prog_mixup",
+  "arch": "efficientnet_v2_s",
+  "lr": 0.001,
+  "batch_size": 32,
+  "epochs": 4,
+  "best_val_acc": 0.74,
+  "best_epoch": 4,
+  "final_val_acc": 0.74,
+  "train_time_s": 7.732479399768636,
+  "total_time_s": 10.263667599996552,
+  "params": 20190298,
+  "device": "cuda",
+  "peak_gpu_mem_gb": 2.6157631874084473,
+  "checkpoint": "outputs_smoke\\checkpoints\\C_effnetv2s_prog_mixup.pt"
+}

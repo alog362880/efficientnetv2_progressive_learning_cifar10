@@ -1,0 +1,16 @@
+{
+  "name": "B0_effnetv2s_prog_size_only",
+  "arch": "efficientnet_v2_s",
+  "lr": 0.001,
+  "batch_size": 32,
+  "epochs": 4,
+  "best_val_acc": 0.66,
+  "best_epoch": 4,
+  "final_val_acc": 0.66,
+  "train_time_s": 19.591205599950626,
+  "total_time_s": 25.372581099974923,
+  "params": 20190298,
+  "device": "cuda",
+  "peak_gpu_mem_gb": 2.618112087249756,
+  "checkpoint": "outputs_smoke\\checkpoints\\B0_effnetv2s_prog_size_only.pt"
+}

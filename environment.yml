@@ -1,0 +1,17 @@
+name: comp1818
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scikit-learn
+  - scikit-image      
+  - matplotlib
+  - opencv            
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+      - --index-url https://download.pytorch.org/whl/cu126
+      - torch
+      - torchvision

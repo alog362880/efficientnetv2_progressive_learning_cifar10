@@ -1,0 +1,18 @@
+{
+  "selected_lr": 0.0001,
+  "sweep_epochs": 3,
+  "results": {
+    "0.0001": {
+      "best_val_acc": 0.95,
+      "train_time_s": 189.7670488000149
+    },
+    "0.0003": {
+      "best_val_acc": 0.942,
+      "train_time_s": 191.0155994000379
+    },
+    "0.001": {
+      "best_val_acc": 0.932,
+      "train_time_s": 205.55766480008606
+    }
+  }
+}

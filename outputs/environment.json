@@ -1,0 +1,11 @@
+{
+  "python": "3.11.18",
+  "torch": "2.14.1+cu126",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "cpu_count": 16,
+  "device": "cuda",
+  "amp": true,
+  "gpu_name": "NVIDIA GeForce RTX 2050",
+  "gpu_mem_gb": 4.0
+}

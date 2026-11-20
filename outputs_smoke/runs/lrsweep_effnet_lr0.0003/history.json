@@ -1,0 +1,17 @@
+[
+  {
+    "epoch": 1,
+    "stage": 1,
+    "size": 224,
+    "randaug": null,
+    "dropout": 0.2,
+    "mixup": 0.0,
+    "lr_end": 0.0003,
+    "train_loss": 2.3145151138305664,
+    "train_acc": 0.13541666666666666,
+    "val_loss": 2.288707914352417,
+    "val_acc": 0.17,
+    "val_macro_f1": 0.1404110767113863,
+    "epoch_train_time_s": 2.495749199995771
+  }
+]

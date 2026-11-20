@@ -1,0 +1,16 @@
+{
+  "name": "B_effnetv2s_progressive",
+  "arch": "efficientnet_v2_s",
+  "lr": 0.0001,
+  "batch_size": 32,
+  "epochs": 12,
+  "best_val_acc": 0.967,
+  "best_epoch": 11,
+  "final_val_acc": 0.966,
+  "train_time_s": 771.8046521001961,
+  "total_time_s": 845.7157631000737,
+  "params": 20190298,
+  "device": "cuda",
+  "peak_gpu_mem_gb": 2.615762233734131,
+  "checkpoint": "outputs\\checkpoints\\B_effnetv2s_progressive.pt"
+}

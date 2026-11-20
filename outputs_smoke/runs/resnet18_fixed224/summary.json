@@ -1,0 +1,16 @@
+{
+  "name": "resnet18_fixed224",
+  "arch": "resnet18",
+  "lr": 0.001,
+  "batch_size": 32,
+  "epochs": 1,
+  "best_val_acc": 0.34,
+  "best_epoch": 1,
+  "final_val_acc": 0.34,
+  "train_time_s": 1.02702469995711,
+  "total_time_s": 1.2970318000297993,
+  "params": 11181642,
+  "device": "cuda",
+  "peak_gpu_mem_gb": 0.5619606971740723,
+  "checkpoint": "outputs_smoke\\checkpoints\\resnet18_fixed224.pt"
+}

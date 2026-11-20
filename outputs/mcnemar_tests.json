@@ -1,0 +1,92 @@
+{
+  "hog_svm vs resnet18_fixed224": {
+    "b": 43,
+    "c": 798,
+    "chi2": 676.0,
+    "p_value": 4.952126631006914e-149
+  },
+  "hog_svm vs A_effnetv2s_fixed224": {
+    "b": 28,
+    "c": 853,
+    "chi2": 770.6878547105562,
+    "p_value": 1.2740832893792108e-169
+  },
+  "hog_svm vs B0_effnetv2s_prog_size_only": {
+    "b": 27,
+    "c": 846,
+    "chi2": 766.4650630011455,
+    "p_value": 1.0552500452885933e-168
+  },
+  "hog_svm vs B_effnetv2s_progressive": {
+    "b": 19,
+    "c": 847,
+    "chi2": 789.756351039261,
+    "p_value": 9.10400874606225e-174
+  },
+  "hog_svm vs C_effnetv2s_prog_mixup": {
+    "b": 21,
+    "c": 846,
+    "chi2": 783.1326412918108,
+    "p_value": 2.508287082419186e-172
+  },
+  "resnet18_fixed224 vs A_effnetv2s_fixed224": {
+    "b": 40,
+    "c": 110,
+    "chi2": 31.74,
+    "p_value": 1.7625444016933138e-08
+  },
+  "resnet18_fixed224 vs B0_effnetv2s_prog_size_only": {
+    "b": 44,
+    "c": 108,
+    "chi2": 26.111842105263158,
+    "p_value": 3.2220184411707523e-07
+  },
+  "resnet18_fixed224 vs B_effnetv2s_progressive": {
+    "b": 35,
+    "c": 108,
+    "chi2": 36.25174825174825,
+    "p_value": 1.7340438629443752e-09
+  },
+  "resnet18_fixed224 vs C_effnetv2s_prog_mixup": {
+    "b": 39,
+    "c": 109,
+    "chi2": 32.16891891891892,
+    "p_value": 1.4133371366248517e-08
+  },
+  "A_effnetv2s_fixed224 vs B0_effnetv2s_prog_size_only": {
+    "b": 43,
+    "c": 37,
+    "chi2": 0.3125,
+    "p_value": 0.5761501220305789
+  },
+  "A_effnetv2s_fixed224 vs B_effnetv2s_progressive": {
+    "b": 35,
+    "c": 38,
+    "chi2": 0.0547945205479452,
+    "p_value": 0.8149210911464686
+  },
+  "A_effnetv2s_fixed224 vs C_effnetv2s_prog_mixup": {
+    "b": 39,
+    "c": 39,
+    "chi2": 0.01282051282051282,
+    "p_value": 0.9098500327472846
+  },
+  "B0_effnetv2s_prog_size_only vs B_effnetv2s_progressive": {
+    "b": 32,
+    "c": 41,
+    "chi2": 0.8767123287671232,
+    "p_value": 0.3491037299167901
+  },
+  "B0_effnetv2s_prog_size_only vs C_effnetv2s_prog_mixup": {
+    "b": 30,
+    "c": 36,
+    "chi2": 0.3787878787878788,
+    "p_value": 0.5382526579885007
+  },
+  "B_effnetv2s_progressive vs C_effnetv2s_prog_mixup": {
+    "b": 30,
+    "c": 27,
+    "chi2": 0.07017543859649122,
+    "p_value": 0.7910815129207817
+  }
+}

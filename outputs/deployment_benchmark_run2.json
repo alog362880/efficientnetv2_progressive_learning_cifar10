@@ -1,0 +1,60 @@
+{
+  "env": {
+    "torch": "2.14.1+cu126",
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "cpu_threads": 12,
+    "gpu": "NVIDIA GeForce RTX 2050",
+    "input_size": 224,
+    "note": "random inputs; GPU uses fp16 autocast; median of repeated runs"
+  },
+  "resnet18": {
+    "params": 11181642,
+    "checkpoint_mb": 44.802827,
+    "gflops_224": 3.627132928,
+    "cpu_fp32_b1": {
+      "median_ms_per_batch": 21.00500004598871,
+      "images_per_s": 47.60771234518366
+    },
+    "gpu_amp_b1": {
+      "median_ms_per_batch": 3.78989998716861,
+      "images_per_s": 263.85920562169986,
+      "peak_mem_mb": 82.22464
+    },
+    "gpu_amp_b32": {
+      "median_ms_per_batch": 30.452849983703345,
+      "images_per_s": 1050.8047692457226,
+      "peak_mem_mb": 417.765376
+    }
+  },
+  "efficientnet_v2_s": {
+    "params": 20190298,
+    "checkpoint_mb": 81.629091,
+    "gflops_224": 5.697257344,
+    "cpu_fp32_b1": {
+      "median_ms_per_batch": 51.47315002977848,
+      "images_per_s": 19.427604477702946
+    },
+    "gpu_amp_b1": {
+      "median_ms_per_batch": 36.34405002230778,
+      "images_per_s": 27.514820153125626,
+      "peak_mem_mb": 133.430272
+    },
+    "gpu_amp_b32": {
+      "median_ms_per_batch": 93.99590000975877,
+      "images_per_s": 340.4403808748863,
+      "peak_mem_mb": 298.225152
+    }
+  },
+  "hog_svm": {
+    "checkpoint_mb": 13.146613,
+    "n_support_vectors": 4794,
+    "cpu_b1": {
+      "median_ms_per_batch": 1.2851999490521848,
+      "images_per_s": 778.0890442280865
+    },
+    "cpu_b32": {
+      "median_ms_per_batch": 30.522000044584274,
+      "images_per_s": 1048.4240860119512
+    }
+  }
+}

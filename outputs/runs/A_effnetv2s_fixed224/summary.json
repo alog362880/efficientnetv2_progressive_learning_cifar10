@@ -1,0 +1,16 @@
+{
+  "name": "A_effnetv2s_fixed224",
+  "arch": "efficientnet_v2_s",
+  "lr": 0.0001,
+  "batch_size": 32,
+  "epochs": 12,
+  "best_val_acc": 0.965,
+  "best_epoch": 7,
+  "final_val_acc": 0.965,
+  "train_time_s": 1084.1447003000649,
+  "total_time_s": 1158.5280574999051,
+  "params": 20190298,
+  "device": "cuda",
+  "peak_gpu_mem_gb": 2.6293997764587402,
+  "checkpoint": "outputs\\checkpoints\\A_effnetv2s_fixed224.pt"
+}

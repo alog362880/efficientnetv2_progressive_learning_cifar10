@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering\small
+\caption{CIFAR-10 results (5k train / 1k val / 2k test). Test set evaluated once.}
+\label{tab:main}
+\begin{tabular}{lcccccc}
+\toprule
+Model & Res. & Params (M) & Val Acc & Test Acc & Macro-F1 & Time (min) \\
+\midrule
+Uniform random guess & – & – & – & 10.30 & 0.103 & – \\
+Majority class ('airplane') & – & – & – & 10.00 & 0.018 & – \\
+HOG + RBF-SVM (C=1) & 32 & – & 54.30 & 54.10 & 0.541 & 0.1 \\
+ResNet-18 (fixed 224) & 224 & 11.2 & 92.90 & 91.85 & 0.918 & 5.1 \\
+Run A: EffNetV2-S fixed 224 & 224 & 20.2 & 96.50 & 95.35 & 0.953 & 18.1 \\
+Run B0: progressive size, fixed reg. & 128$\to$224 & 20.2 & 96.10 & 95.05 & 0.950 & 12.4 \\
+Run B: EffNetV2-S progressive & 128$\to$224 & 20.2 & 96.70 & 95.50 & 0.955 & 12.9 \\
+Run C: progressive + stage-wise Mixup & 128$\to$224 & 20.2 & 96.10 & 95.35 & 0.953 & 13.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

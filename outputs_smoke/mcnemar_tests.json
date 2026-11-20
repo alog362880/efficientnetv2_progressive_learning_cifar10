@@ -1,0 +1,62 @@
+{
+  "hog_svm vs resnet18_fixed224": {
+    "b": 39,
+    "c": 36,
+    "chi2": 0.05333333333333334,
+    "p_value": 0.8173613313851769
+  },
+  "hog_svm vs A_effnetv2s_fixed224": {
+    "b": 43,
+    "c": 40,
+    "chi2": 0.04819277108433735,
+    "p_value": 0.8262383659187281
+  },
+  "hog_svm vs B_effnetv2s_progressive": {
+    "b": 12,
+    "c": 69,
+    "chi2": 38.71604938271605,
+    "p_value": 4.901621014797382e-10
+  },
+  "hog_svm vs C_effnetv2s_prog_mixup": {
+    "b": 11,
+    "c": 79,
+    "chi2": 49.87777777777778,
+    "p_value": 1.6362739651414324e-12
+  },
+  "resnet18_fixed224 vs A_effnetv2s_fixed224": {
+    "b": 42,
+    "c": 42,
+    "chi2": 0.011904761904761904,
+    "p_value": 0.9131160800723744
+  },
+  "resnet18_fixed224 vs B_effnetv2s_progressive": {
+    "b": 10,
+    "c": 70,
+    "chi2": 43.5125,
+    "p_value": 4.212598964462644e-11
+  },
+  "resnet18_fixed224 vs C_effnetv2s_prog_mixup": {
+    "b": 6,
+    "c": 77,
+    "chi2": 59.036144578313255,
+    "p_value": 1.548021425237973e-14
+  },
+  "A_effnetv2s_fixed224 vs B_effnetv2s_progressive": {
+    "b": 12,
+    "c": 72,
+    "chi2": 41.44047619047619,
+    "p_value": 1.2151512240334118e-10
+  },
+  "A_effnetv2s_fixed224 vs C_effnetv2s_prog_mixup": {
+    "b": 10,
+    "c": 81,
+    "chi2": 53.84615384615385,
+    "p_value": 2.168191179001737e-13
+  },
+  "B_effnetv2s_progressive vs C_effnetv2s_prog_mixup": {
+    "b": 12,
+    "c": 23,
+    "chi2": 2.857142857142857,
+    "p_value": 0.09096894797535778
+  }
+}

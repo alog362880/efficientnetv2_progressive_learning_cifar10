@@ -1,0 +1,15 @@
+# Datasets (downloaded automatically by torchvision)
+data/
+
+# Model weights / caches (too large for GitHub)
+torch_cache/
+*.pt
+*.pth
+
+# Large generated videos
+predictions/*.mp4
+*.mp4
+
+# Python
+__pycache__/
+*.pyc

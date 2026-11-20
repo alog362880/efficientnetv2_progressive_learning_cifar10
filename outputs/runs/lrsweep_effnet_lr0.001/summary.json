@@ -1,0 +1,16 @@
+{
+  "name": "lrsweep_effnet_lr0.001",
+  "arch": "efficientnet_v2_s",
+  "lr": 0.001,
+  "batch_size": 32,
+  "epochs": 3,
+  "best_val_acc": 0.932,
+  "best_epoch": 3,
+  "final_val_acc": 0.932,
+  "train_time_s": 205.55766480008606,
+  "total_time_s": 223.08309789991472,
+  "params": 20190298,
+  "device": "cuda",
+  "peak_gpu_mem_gb": 2.626565456390381,
+  "checkpoint": null
+}

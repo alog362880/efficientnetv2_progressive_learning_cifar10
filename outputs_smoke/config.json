@@ -1,0 +1,59 @@
+{
+  "seed": 42,
+  "data_dir": "./data",
+  "out_dir": "./outputs_smoke",
+  "train_per_class": 20,
+  "val_per_class": 10,
+  "test_total": 200,
+  "batch_size": 32,
+  "fallback_batch_size": 16,
+  "epochs": 1,
+  "warmup_epochs": 1,
+  "lr": 0.0003,
+  "lr_grid": [
+    0.0001,
+    0.0003,
+    0.001
+  ],
+  "lr_sweep_epochs": 1,
+  "run_lr_sweep": true,
+  "weight_decay": 0.05,
+  "label_smoothing": 0.1,
+  "dropout": 0.2,
+  "fixed_size": 224,
+  "stages": [
+    {
+      "size": 128,
+      "randaug": 5,
+      "dropout": 0.1
+    },
+    {
+      "size": 160,
+      "randaug": 8,
+      "dropout": 0.17
+    },
+    {
+      "size": 192,
+      "randaug": 12,
+      "dropout": 0.23
+    },
+    {
+      "size": 224,
+      "randaug": 15,
+      "dropout": 0.3
+    }
+  ],
+  "mixup_alphas": [
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "svm_C_grid": [
+    1,
+    10
+  ],
+  "num_workers": 0,
+  "smoke_test": true,
+  "force": false
+}
